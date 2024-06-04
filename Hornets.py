@@ -15,7 +15,7 @@ A.append([24, 76, 750])
 A.append([66, 89, 801])
 A.append([84, 4, 945])
 A.append([34, 23, 967])
-#Through calculations we find that the maximum distance between them is:
+#Through calculations we find that the maximum distance between them is (3,3) and (66,89):
 dmax = 106.61
 
 def Kills(B):
@@ -27,6 +27,9 @@ def Kills(B):
     return np.round(kills)
 
 B1 = [rn.randint(0,101),rn.randint(0,101)]
-C = Kills(B1)
+B2 = [rn.randint(0,101),rn.randint(0,101)]
+B3 = [rn.randint(0,101),rn.randint(0,101)]
+
+C = Kills(B1) + Kills(B2) + Kills(B3)
 
 print(C)
