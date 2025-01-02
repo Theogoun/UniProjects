@@ -4,8 +4,6 @@
 #include <semaphore.h>
 #include <unistd.h>
 
-//Θεόδωρος-Κοσμάς Γουνελάς ΑΜ:3121207
-//Στέλλα Αλούση ΑΜ:3121293
 
 #define MAX_CARS 20
 #define MAX_ON_BRIDGE 3

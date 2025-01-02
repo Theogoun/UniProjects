@@ -7,8 +7,6 @@
 #include <unistd.h>
 #include <time.h>
 
-//Θεόδωρος-Κοσμάς Γουνελάς ΑΜ:3121207
-//Στέλλα Αλούση ΑΜ:3121293
 
 #define SHM_SIZE 256  // Size of the shared memory segment
 

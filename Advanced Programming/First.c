@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-//Θεόδωρος-Κοσμάς Γουνελάς ΑΜ:3121207
-//Στέλλα Αλούση ΑΜ:3121293
 
 void *my_realloc(void *ptr, size_t new_size) {
     // If new_size is 0, free the memory and return NULL
