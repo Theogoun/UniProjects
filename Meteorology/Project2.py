@@ -3,15 +3,12 @@ import matplotlib.pyplot as plt
 import requests
 import json
 #"https://api.openweathermap.org/data/2.5/weather?q=larissa,gr&appid=e953f11d852d5833e92ea4ccc393a59d"
-#40 times exi 8 ti mera 5 meres !!!!zbise
 
 lat=39.6372
 lon=22.4203
 city="larissa,gr"
 apikey="e953f11d852d5833e92ea4ccc393a59d"
 endpoint=f"https://api.openweathermap.org/data/2.5/forecast?q={city},gr&appid={apikey}"
-#"https://api.openweathermap.org/data/2.5/weather?q={city},gr&appid={apikey}") !!!!zbise
-#"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={apikey}" !!!!zbise
 
 text=requests.get(endpoint).text
 response=json.loads(text)
